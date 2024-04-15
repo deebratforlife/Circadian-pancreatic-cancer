@@ -13,7 +13,7 @@ Operations_large_file (FASTQ_split_access) |
 Testing_intergroup_variations (ANOVA to test variability) |
 Gene_rhythms (Calculation_of_rhythmicity) |
 
-# More details can be provided upon request.
+More details can be provided upon request.
 
 Technical Requirements:
 Softwares, Languages et al:
