@@ -7,7 +7,7 @@ Please contact us anytime for details or troubleshooting. Happy to help.
 This is the list of files that are part of this repo. Each file contains detailed comments/troubleshoot tips/corresponding figure/data identifier along with associated code.
 
 Multi_range_rows (for creating heatmaps) |
-Dimension_reduction |
+Dimension_reduction (using principal component analysis) |
 Hierarchical_clustering |
 Multiple_correlation_analysis |
 Operations_large_file |
