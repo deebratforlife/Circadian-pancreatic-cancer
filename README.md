@@ -6,13 +6,13 @@ This repo corresponds to the codes employed to generate plots for the JCI Insigh
 Please contact us anytime for details or troubleshooting. Happy to help.
 This is the list of files that are part of this repo. Each file contains detailed comments/troubleshoot tips/corresponding figure/data identifier along with associated code.
 
-Multi_range_rows
-Dimension_reduction
-Hierarchical_clustering
-Multiple_correlation_analysis
-Operations_large_file
-Testing_intergroup_variations
-Calculation_of_rhythmicity
+Multi_range_rows |
+Dimension_reduction |
+Hierarchical_clustering |
+Multiple_correlation_analysis |
+Operations_large_file |
+Testing_intergroup_variations |
+Gene_rhythms (Calculation_of_rhythmicity) |
 
 More details can be provided upon request.
 
