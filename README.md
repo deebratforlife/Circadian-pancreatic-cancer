@@ -6,7 +6,7 @@ This repo corresponds to the codes employed to generate plots for the JCI Insigh
 Please contact us anytime for details or troubleshooting. Happy to help.
 This is the list of files that are part of this repo. Each file contains detailed comments/troubleshoot tips/corresponding figure/data identifier along with associated code.
 
-Multi_range_rows |
+Multi_range_rows (for creating heatmaps) |
 Dimension_reduction |
 Hierarchical_clustering |
 Multiple_correlation_analysis |
