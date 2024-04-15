@@ -11,7 +11,7 @@ Dimension_reduction (using principal component analysis) |
 Hierarchical_clustering (unsupervised clustering and heatmap generation) |
 Multiple_correlation_analysis (pairwise correlation of multiple samples) |
 Operations_large_file |
-Testing_intergroup_variations |
+Testing_intergroup_variations (ANOVA to test variability) |
 Gene_rhythms (Calculation_of_rhythmicity) |
 
 More details can be provided upon request.
