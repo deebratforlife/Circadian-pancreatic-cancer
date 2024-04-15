@@ -9,7 +9,7 @@ This is the list of files that are part of this repo. Each file contains detaile
 Multi_range_rows (for creating heatmaps) |
 Dimension_reduction (using principal component analysis) |
 Hierarchical_clustering (unsupervised clustering and heatmap generation) |
-Multiple_correlation_analysis |
+Multiple_correlation_analysis (pairwise correlation of multiple samples) |
 Operations_large_file |
 Testing_intergroup_variations |
 Gene_rhythms (Calculation_of_rhythmicity) |
