@@ -8,7 +8,7 @@ This is the list of files that are part of this repo. Each file contains detaile
 
 Multi_range_rows (for creating heatmaps) |
 Dimension_reduction (using principal component analysis) |
-Hierarchical_clustering |
+Hierarchical_clustering (unsupervised clustering and heatmap generation) |
 Multiple_correlation_analysis |
 Operations_large_file |
 Testing_intergroup_variations |
