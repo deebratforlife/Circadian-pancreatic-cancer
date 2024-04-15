@@ -1,0 +1,42 @@
+# Calculation of rhythmicity using the metacycle package:
+
+
+# call libraries:
+library(readr)
+library(dplyr)
+library(readxl)
+library(tidyverse)
+#library(DESeq2)
+#library(airway)
+library(MetaCycle)
+
+# Read the data:
+# remove the rows that all data is zero
+# then save the new csv file for fututre use.
+
+
+Circ1 <- read_csv("featurecounts.matrix.circ1.csv")
+keep <- rowSums(circ1[2:7])>0
+circ1<-circ1[keep,] 
+
+write.csv(circ1,"circ1_withnozerocount.csv",row.names = FALSE)
+
+####################
+
+
+# Lets find rhythmicity using meta2d package:
+
+##### Run Panc1 ####
+circ1_meta2d<- MetaCycle::meta2d(infile = "cell_line1.csv"
+                                 , filestyle = 'csv', minper = 20, maxper = 28,
+                                 , cycMethod = c("ARS", "JTK", "LS"),
+                                 , analysisStrategy = "auto",
+                                 , adjustPhase = "predictedPer",
+                                 , combinePvalue = "fisher",
+                                 , timepoints = c(0, 4, 8, 12, 16, 20)
+                                 , outputFile = FALSE
+                                 , nCores = 6
+)
+
+write.csv(circ1_meta2d,"results_circ1_meta2d.csv",row.names = FALSE)
+#to avoid running meta2d 
